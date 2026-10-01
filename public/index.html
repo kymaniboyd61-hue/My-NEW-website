@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Roleplay</title>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header>
+  <a class="brand" href="#home" style="color:inherit;text-decoration:none"><div class="logo" id="logo"></div><div id="brand"></div></a>
+  <nav>
+    <a href="#home" data-v="home">Home</a>
+    <a href="#about" data-v="about">About</a>
+    <a href="#media" data-v="media">Media</a>
+    <a href="#staff" data-v="staff">Staff</a>
+    <div class="dd" id="dd"><button class="l" onclick="$('#dd').classList.toggle('open')" aria-haspopup="true">Departments ▾</button><div class="m"></div></div>
+    <a href="#contact" data-v="contact">Contact a member</a>
+    <a class="btn" id="portalBtn" href="#portal">Staff sign in</a>
+    <a class="btn p" id="join" href="#">Join Discord</a>
+  </nav>
+</header>
+<main id="main"></main>
+<footer style="border-top:1px solid var(--line);padding:22px;text-align:center;color:var(--mu);font-size:13px"><span id="foot"></span> <a href="#owner" style="margin-left:16px;color:var(--mu);opacity:.65;font-size:12px">Owners sign in</a></footer>
+<script src="/app.js"></script>
+</body>
+</html>
